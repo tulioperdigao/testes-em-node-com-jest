@@ -1,0 +1,25 @@
+{
+  "name": "testes-em-node-com-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tulioperdigao/testes-em-node-com-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/tulioperdigao/testes-em-node-com-jest/issues"
+  },
+  "homepage": "https://github.com/tulioperdigao/testes-em-node-com-jest#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}

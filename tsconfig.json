@@ -3,8 +3,16 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
+    "moduleResolution": "node",
     "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true
-  }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "./**/*.test.ts",
+    "./src/mocks"
+  ]
 }

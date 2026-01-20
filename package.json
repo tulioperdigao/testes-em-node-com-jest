@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
     "dist": "npx tsc",
+    "start": "node dist/index.js",
     "start:dev": "tsx src/index.ts",
     "test": "jest"
   },
@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/tulioperdigao/testes-em-node-com-jest/issues"
   },
